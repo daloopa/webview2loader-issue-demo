@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DnaLibrary Name="DaloopaExcelAddin Add-In" RuntimeVersion="v4.0" xmlns="http://schemas.excel-dna.net/addin/2018/05/dnalibrary">
+  <ExternalLibrary Path="DaloopaExcelAddin.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" IncludePdb="false" />
+ 
+  <Reference Path="log4net.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.JsonWebTokens.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.Logging.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.Tokens.dll" Pack="true" />
+  <Reference Path="Newtonsoft.Json.dll" Pack="true" />
+  <Reference Path="System.Runtime.InteropServices.RuntimeInformation.dll" Pack="true" />
+  <Reference Path="System.IdentityModel.Tokens.Jwt.dll" Pack="true" />
+  <Reference Path="MetroFramework.dll" Pack="true" />
+  <Reference Path="MetroFramework.Design.dll" Pack="true" />
+  <Reference Path="MetroFramework.Fonts.dll" Pack="true" />
+
+
+  <Reference Path="ControlzEx.dll" Pack="true" />
+  <Reference Path="JetBrains.Annotations.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.BootstrapIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.BoxIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Codicons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Core.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Entypo.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.EvaIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.FeatherIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.FileIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Fontaudio.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.FontAwesome.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.ForkAwesome.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Ionicons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.JamIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Material.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.MaterialDesign.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.MaterialLight.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Microns.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Modern.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Octicons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.PicolIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.PixelartIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.RadixIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.RemixIcon.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.RPGAwesome.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.SimpleIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Typicons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Unicons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.VaadinIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.WeatherIcons.dll" Pack="true" />
+  <Reference Path="MahApps.Metro.IconPacks.Zondicons.dll" Pack="true" />
+  <Reference Path="MetroFramework.Design.dll" Pack="true" />
+  <Reference Path="MetroFramework.dll" Pack="true" />
+  <Reference Path="MetroFramework.Fonts.dll" Pack="true" />
+  <Reference Path="Mixpanel.dll" Pack="true" />
+  <Reference Path="Serilog.dll" Pack="true" />
+  <Reference Path="Serilog.Sinks.Datadog.Logs.dll" Pack="true" />
+  <Reference Path="Serilog.Sinks.PeriodicBatching.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.JsonWebTokens.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.Logging.dll" Pack="true" />
+  <Reference Path="Microsoft.IdentityModel.Tokens.dll" Pack="true" />
+  <Reference Path="Microsoft.Web.WebView2.Core.dll" Pack="true" />
+  <Reference Path="Microsoft.Web.WebView2.WinForms.dll" Pack="true" />
+  <Reference Path="Microsoft.Web.WebView2.Wpf.dll" Pack="true" />
+  <Reference Path="Microsoft.Xaml.Behaviors.dll" Pack="true" />
+  <Reference Path="de/MahApps.Metro.resources.dll" Pack="true" />
+  <Reference Path="runtimes/win-x86/native/WebView2Loader.dll" Pack="true" />
+
+  <!--
+       The RuntimeVersion attribute above allows two settings:
+       * RuntimeVersion="v4.0" - for .NET 4 and 4.5
+       * RuntimeVersion="v2.0" - for .NET 2.0, 3.0 and 3.5
+
+       You can have IntelliSense (autocomplete) and validation for this file.
+       See https://github.com/Excel-DNA/ExcelDna/tree/master/Distribution/XmlSchemas/
+
+       Additional referenced assemblies can be specified by adding 'Reference' tags. 
+       These libraries will not be examined and registered with Excel as add-in libraries, 
+       but will be packed into the -packed.xll file and loaded at runtime as needed.
+       For example:
+
+       <Reference Path="Another.Library.dll" Pack="true" />
+
+       Excel-DNA also allows the XML for ribbon UI extensions to be specified in the .dna file.
+       See the main Excel-DNA site at http://excel-dna.net for downloads of the full distribution.
+  -->
+</DnaLibrary>

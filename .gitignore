@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/webview2loader-issue-demo/v16/.suo
+/.vs/slnx.sqlite
+/WebView2LoaderDemo/packages
+/WebView2LoaderDemo/Release
+/WebView2LoaderDemo/DaloopaExcelAddin/bin/Release
+/WebView2LoaderDemo/DaloopaExcelAddin/obj
